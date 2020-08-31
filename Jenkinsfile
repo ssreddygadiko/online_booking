@@ -39,7 +39,7 @@ pipeline
                 script
                 {
                     // Build the docker image using a Dockerfile
-                    docker.build -t $IMAGE .
+                    docker.build('$IMAGE')
                 }
             }
         }
