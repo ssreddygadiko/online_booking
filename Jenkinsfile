@@ -1,7 +1,7 @@
 pipeline {
   environment {
     registry = '675274863130.dkr.ecr.ap-south-1.amazonaws.com/test'
-    registryCredential = 'e97005edc62c444171614cc238c52e5346e17112'
+    registryCredential = '9d0d63cca5028f996fdf3db7ca736666e6422d46'
     dockerImage = ''
   }
   agent any
